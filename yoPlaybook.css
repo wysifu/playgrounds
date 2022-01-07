@@ -1,0 +1,128 @@
+html {
+    width: 100%;
+}
+
+body {
+    background-image: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/deep-blue-sea-bobhemphill.jpg");
+    background-size: cover;
+    height: 80%;
+    padding-top: 0px;
+}
+
+footer {
+
+}
+
+nav {
+    background-color: #5CD5FF;
+    padding: 20px;
+}
+
+li {
+    display: inline-block;
+  }
+
+ul {
+    list-style: none;
+    margin: 1px;
+}
+
+form {
+    text-align: center;
+    margin-top: 150px;
+    color: white;
+    background-color: hsla(187, 100%, 45%, 10%);
+    padding-top: 10px;
+    margin-top: 125px;
+}
+
+form h4 {
+    color: #0BBB20;
+}
+
+.scoreBoard {
+    background-color: hsla(187, 100%, 45%, 25%);
+    padding-top: 13px;
+    position: fixed;
+    z-index: 1;
+    ;
+}
+
+.skyScrolluno {
+    padding-top: 175px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.skyScrolldos {
+    display: flex;
+    justify-content: space-around;
+    padding-top:40px;
+}
+
+.skyScrolltres {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-left: 300px;
+    padding-right: 40px;
+    margin: 50px;
+    align-items: center;
+}
+
+/*.streamlinedAnalysis {
+    margin-top: 150px;
+    
+}*/
+
+.D {
+    color: red
+}
+
+.W {
+    color: #0027FF;
+}
+
+.hourFour {
+    color : green;
+}
+
+.emThirty {
+    color: lightskyblue;
+}
+
+#canvas {
+    box-shadow: -3px 2px 9px 6px black;
+    cursor: pointer;
+}
+.tools .color-field {
+    height: 20px;
+    width: 20px;
+    min-width: 20px;
+    min-height: 20px;
+    cursor: pointer;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 50%;
+    align-self: center;
+    margin: 0 5px;
+}
+
+.tools {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.tools .button {
+    align-self: center;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.color-picker {
+    align-self: center;
+    margin: 0 5px;
+    width: 30px;
+}
