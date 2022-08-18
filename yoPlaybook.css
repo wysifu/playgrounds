@@ -81,6 +81,8 @@ form h4 {
 
 .W {
     color: #0027FF;
+    background: #5cd6ff67;
+    background-
 }
 
 .hourFour {
@@ -93,7 +95,7 @@ form h4 {
 
 #canvas {
     box-shadow: -3px 2px 9px 6px black;
-    cursor: pointer;
+    cursor: crosshair;
 }
 .tools .color-field {
     height: 20px;
